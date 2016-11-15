@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">MyFlower</string>
+  <string name="flower_name_title_holder">Flower Name</string>
+  <string name="try_changing_search_text_no_flowers_found">Try changing search text, No flowers
+    found!!!
+  </string>
+  <string name="flower_name">Flower Name</string>
+</resources>

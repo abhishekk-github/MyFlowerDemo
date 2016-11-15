@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <ImageView
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:background="@drawable/img"
+      android:id="@+id/flower_image_view"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentStart="true"/>
+  <TextView
+      android:text="@string/flower_name_title_holder"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:layout_marginStart="12dp"
+      android:layout_marginTop="12dp"
+      android:id="@+id/flowername_tv"
+      android:layout_alignTop="@+id/flower_image_view"
+      android:layout_toEndOf="@+id/flower_image_view"
+      android:hint="Flower Name"/>
+  <ImageButton
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:background="@drawable/popup_star_icon_off"
+      android:id="@+id/bookmark_imageButton"
+      android:layout_centerVertical="true" android:layout_toStartOf="@+id/imageView_share"
+      android:layout_marginEnd="11dp"/>
+  <ImageView
+      android:layout_width="24dp"
+      android:layout_height="24dp"
+      android:background="?attr/actionModeShareDrawable"
+      android:id="@+id/imageView_share"
+      android:layout_marginEnd="12dp"
+      android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>
